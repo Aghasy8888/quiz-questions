@@ -7,7 +7,6 @@ export default function Labels({ answer, questionIndex }) {
 
   const handleAnswer = (index, option) => {
     userAnswerArray[index] = option;
-    console.log(userAnswerArray);
   };
   return (
     <div>
